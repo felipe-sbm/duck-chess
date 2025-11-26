@@ -6,8 +6,8 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
-	<link rel="preload" href="/fonts/Micro_5/Micro5-Regular.woff2" as="font" type="font/ttf" crossorigin="anonymous">
-	<link rel="preload" href="/fonts/Doto/Doto-VariableFont_ROND,wght.woff2" as="font" type="font/ttf" crossorigin="anonymous">
+	<link rel="preload" href="/fonts/Micro_5/Micro5-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" href="/fonts/Doto/Doto-VariableFont_ROND,wght.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 </svelte:head>
  
 <style>
@@ -22,8 +22,7 @@
 		 prefer woff2 (smaller, modern browsers) and fallback to ttf if needed */
 	@font-face {
 		font-family: 'Micro 5';
-		src: url('/fonts/Micro_5/Micro5-Regular.woff2') format('woff2'),
-				 url('/fonts/Micro_5/Micro5-Regular.ttf') format('truetype');
+		src: url('/fonts/Micro_5/Micro5-Regular.woff2') format('woff2');
 		font-weight: 400;
 		font-style: normal;
 		font-display: swap;
@@ -31,8 +30,7 @@
 
 	@font-face {
 		font-family: 'Doto';
-		src: url('/fonts/Doto/Doto-VariableFont_ROND,wght.woff2') format('woff2'),
-				 url('/fonts/Doto/Doto-VariableFont_ROND,wght.ttf') format('truetype');
+		src: url('/fonts/Doto/Doto-VariableFont_ROND,wght.woff2') format('woff2');
 		font-weight: 100 900;
 		font-style: normal;
 		font-display: swap;
