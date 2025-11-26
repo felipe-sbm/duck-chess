@@ -1,0 +1,9 @@
+{
+  "name": "miki",
+  "actions": {
+    "idle": ["miki-lay.webp"],
+    "think": ["miki-think.webp"],
+    "surprise": ["miki-surprise.webp"]
+  },
+  "portrait": "miki-portrait.webp"
+}
