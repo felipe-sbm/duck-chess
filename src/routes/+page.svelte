@@ -78,7 +78,7 @@
 		background-image: url('/images/table.webp');
 		background-repeat: repeat;
 		background-position: top left;
-		background-size: var(--table-size, 64px);
+		background-size: var(--table-size, 40rem);
 	}
 
 	.controls {

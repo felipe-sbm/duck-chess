@@ -76,7 +76,7 @@
 	.scene {
 		width: 100%;
 		max-width: 320px;
-		height: 320px;
+		height: 20rem;
 		position: relative;
 		background: linear-gradient(180deg, #f7f7f7 0%, #eaeaea 100%);
 		border-radius: 10px;
@@ -88,7 +88,7 @@
 	}
 
 	.character {
-		width: 15rem;
+		width: 25rem;
 		height: auto;
 		z-index: 2;
 	}
@@ -97,7 +97,7 @@
 		position: absolute;
 		bottom: 18px;
 		width: 85%;
-		height: 40px;
+		height: 3.5rem;
 		z-index: 2;
 		border-radius: 6px;
 		box-shadow: inset 0 -6px 12px rgba(0, 0, 0, 0.15);
@@ -105,7 +105,7 @@
 		background-image: url('/images/table.webp');
 		background-repeat: repeat-x;
 		background-position: left center;
-		background-size: var(--table-tile-size, 48px) auto;
+		background-size: var(--table-tile-size, 64px) auto;
 	}
 
 	.gallery {
